@@ -14,7 +14,7 @@ public class Locators2 {
 // TODO Auto-generated method stub
 
         String name = "rahul";
-        System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
+        System.setProperty("WebDriver.chrome.driver", "C:\\Users\\nikita.tiwari\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64");
         WebDriver driver = new ChromeDriver();
 // System.setProperty("webdriver.edge.driver", "/Users/rahulshetty/Documents/msedgedriver");
 // WebDriver driver = new EdgeDriver();
