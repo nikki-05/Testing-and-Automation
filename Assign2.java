@@ -53,7 +53,6 @@ public class Assign2 {
         //submit button
        driver.findElement(By.cssSelector("input[type='submit']")).click();
 
-       
        driver.quit();
 
 
