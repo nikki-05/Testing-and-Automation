@@ -19,7 +19,7 @@ public class Dropdown {
         //driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep']//input[contains(@value, 'MAA')]"));
 
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Click on 'From'
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("[data-testid='to-testID-origin'] input.css-1cwyjr8"))).sendKeys("BLR");
